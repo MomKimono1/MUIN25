@@ -1,0 +1,29 @@
+MU CADPDF V25 - SAVE AS & AUTO OPEN (AutoCAD 2021)
+
+PHIEN BAN NAY DUOC SUA TREN V25 RESET MODEL. KHONG DUNG PDF24.
+
+CHI 2 THAY DOI:
+1. Sau khi chon cac khung va chon thong so in, AutoCAD hien Save As: chon thu muc va ten file PDF.
+2. Khi MU24CORE xuat PDF thanh cong, chuong trinh tu mo file bang ung dung PDF mac dinh cua Windows (Foxit, Edge, Adobe...).
+
+CAI DAT:
+1. Mo dung file DWG trong AutoCAD 2021.
+2. NETLOAD -> MU24Direct.dll da bien dich va dung tren may ban. KHONG CAN BIEN DICH LAI DLL chi de them Save As / Open.
+3. APPLOAD -> MU_CADPDF_V25_SAVE_OPEN.lsp.
+4. Go MUIN25SAVE (hoac MUIN25); chon khung + CHON TO, Enter.
+5. Bam CHON GIAY / LUU PDF. Chon may in PDF, A3 va monochrome.ctb; OK.
+6. Hop thoai Save As xuat hien: chon noi luu, dat ten PDF, bam Save.
+7. Neu xuat thanh cong, PDF se duoc mo bang ung dung PDF mac dinh.
+
+AN TOAN:
+- Neu huy Save As: KHONG in.
+- Neu file PDF da ton tai: yeu cau chon ten moi, KHONG tu ghi de.
+- Neu MU24CORE bao loi va khong tao duoc file PDF: KHONG mo file.
+- Khong tao PDF trang le, khong copy DWG, khong goi PDF24.
+- Dong hop thoai: V25 van xoa khung danh dau va reset danh sach.
+
+GIOI HAN:
+- Day la sua doi LISP tren nen V25. No VAN CAN DLL MU24Direct.dll duoc NETLOAD.
+- Neu DLL cu co loi rieng (chua xuat thanh cong), thay doi Save As khong sua duoc loi PlotEngine cua DLL.
+- Chua the chay kiem thu truc tiep trong AutoCAD 2021 tren may ban. Thu 2 khung truoc.
+

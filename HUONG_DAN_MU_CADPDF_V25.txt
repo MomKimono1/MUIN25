@@ -1,0 +1,24 @@
+MU CADPDF V25 -- RESET + MODEL/LAYOUT
+
+1. Tai va giai nen MU_CADPDF_V25_RESET_MODEL.zip.
+2. Trong AutoCAD 2021: NETLOAD MU24Direct.dll (ban da bien dich o V24; khong can bien dich lai neu DLL da nap).
+3. APPLOAD MU_CADPDF_V25_RESET_MODEL.lsp tai DUNG tab file DWG dang xu ly.
+4. Go MU25CHECK de xem MODE va so khung CAD da nhan.
+5. Go MUIN25. Chon + CHON TO, nhap 1 diem ben trong khung. Enter ket thuc chon.
+6. Co the LEN / XUONG / XOA / XEM TO. In dung MU24CORE nhu truoc.
+7. Bam DONG, hoac dau X tren hop thoai: cac vien do + chu so vang se tu dong xoa,
+   danh sach da chon duoc RESET. Mo MUIN25 lan nua se BAT DAU LAI tu 0 to.
+8. Ho tro Model tab (TILEMODE=1): chuyen vao tab Model, go MU25CHECK / MUIN25.
+   Neu o Layout va muon chon khung trong Paper: go PSPACE truoc khi dung.
+
+THAY DOI V25:
+- Reset trang thai khi DONG, X hoac Escape; reset ca khi gap loi.
+- Reset khi mo lai, khong nhan ban ve cu.
+- Model: do quet ca INSERT Xref/Block va LWPOLYLINE khung RECTANG.
+- Chon duy nhat mot file PDF nhieu trang bang AutoCAD .NET MU24CORE.
+- Khong dung PDF24 Creator, khong COPY DWG, khong tao PDF trang le.
+- Co lenh MU25CHECK kiem tra Model / Paper va so khung nhan dien.
+
+Luu y: khung Model phai la INSERT co bao khung hoac RECTANG/LWPOLYLINE kin
+co ti le giay; khung chi gom 4 LINE roi chua duoc quet tu dong.
+Code duoc kiem tra tĩnh (dau ngoac, tham chieu lenh); chua thu truc tiep tren AutoCAD 2021.
